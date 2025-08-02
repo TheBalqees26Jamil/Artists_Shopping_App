@@ -330,7 +330,8 @@ class ChatWindow(QWidget):
 
 
         self.user_input = QLineEdit()
-        self.user_input.setPlaceholderText("Ask something about art...")
+        self.user_input.setPlaceholderText("Ask something about art...")git push -f origin master
+
         self.layout.addWidget(self.user_input)
 
 
