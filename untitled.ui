@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>669</width>
+    <width>615</width>
     <height>909</height>
    </rect>
   </property>
@@ -15,6 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(16, 16, 16);
 color: rgb(0, 0, 255);</string>
   </property>
   <widget class="QLabel" name="label_3">
@@ -327,7 +328,7 @@ QPushButton:hover {
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../Desktop/Icons/facebook.png</normaloff>../../Desktop/Icons/facebook.png</iconset>
+     <normaloff>icons/facebook.png</normaloff>icons/facebook.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="TwitButton">
@@ -368,7 +369,7 @@ QPushButton:hover {
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../Desktop/Icons/icons8-twitter-50.png</normaloff>../../Desktop/Icons/icons8-twitter-50.png</iconset>
+     <normaloff>icons/twitter.png</normaloff>icons/twitter.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="InstaButton">
@@ -409,13 +410,13 @@ QPushButton:hover {
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../Desktop/Icons/icons8-instagram-logo-64.png</normaloff>../../Desktop/Icons/icons8-instagram-logo-64.png</iconset>
+     <normaloff>icons/instagram.png</normaloff>icons/instagram.png</iconset>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>-10</x>
+     <x>330</x>
      <y>-40</y>
      <width>391</width>
      <height>501</height>
@@ -437,8 +438,8 @@ QPushButton:hover {
   <widget class="QLabel" name="label_19">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>410</y>
+     <x>300</x>
+     <y>400</y>
      <width>401</width>
      <height>561</height>
     </rect>
@@ -450,7 +451,7 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../Desktop/Screenshots/‏‏one - نسخة.png</pixmap>
+    <pixmap>images/opisite.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -459,8 +460,8 @@ QPushButton:hover {
   <widget class="QLabel" name="label_20">
    <property name="geometry">
     <rect>
-     <x>-20</x>
-     <y>-10</y>
+     <x>-80</x>
+     <y>-180</y>
      <width>921</width>
      <height>1001</height>
     </rect>
@@ -470,6 +471,9 @@ QPushButton:hover {
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>images/one.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -488,7 +492,7 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../Desktop/Screenshots/لقطة الشاشة 2025-01-29 174605.png</pixmap>
+    <pixmap>images/art.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

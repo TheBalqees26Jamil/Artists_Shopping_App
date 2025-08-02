@@ -330,7 +330,7 @@ class ChatWindow(QWidget):
 
 
         self.user_input = QLineEdit()
-        self.user_input.setPlaceholderText("Ask something about art...")git push -f origin master
+        self.user_input.setPlaceholderText("Ask something about art...")
 
         self.layout.addWidget(self.user_input)
 
@@ -637,14 +637,14 @@ class GalleryWindow(QWidget):
 
 
             cart_button = QPushButton()
-            cart_button.setIcon(QIcon("C:\\Users\\DELL\\Desktop\\Icons\\cart.png"))
+            cart_button.setIcon(QIcon("icons\\cart.png"))
             cart_button.setIconSize(QSize(20, 20))
             cart_button.setStyleSheet("border: none;")
             layout.addRow(cart_button)
 
 
             like_button = QPushButton()
-            like_button.setIcon(QIcon("C:\\Users\\DELL\\Desktop\\Icons\\like.png"))
+            like_button.setIcon(QIcon("icons\\like.png"))
             like_button.setIconSize(QSize(20, 20))
             like_button.setStyleSheet("border: none;")
             layout.addRow(like_button)
@@ -748,7 +748,7 @@ class PreferencesWindow(QWidget):
 
         if not prefer_items:
             empty_image = QLabel(self)
-            pixmap = QPixmap("C:\\Users\\DELL\\Desktop\\Icons\\feedback.png")
+            pixmap = QPixmap("icons\\feedback.png")
             empty_image.setPixmap(pixmap.scaled(200, 200, Qt.AspectRatioMode.KeepAspectRatio))
             layout.addWidget(empty_image, alignment=Qt.AlignmentFlag.AlignCenter)
 
@@ -825,7 +825,7 @@ class BasketWindow(QWidget):
         if not cart_items:
 
             empty_image = QLabel(self)
-            pixmap = QPixmap("C:\\Users\\DELL\\Desktop\\Icons\\shopping.png")
+            pixmap = QPixmap("icons\\shopping.png")
             empty_image.setPixmap(pixmap.scaled(200, 200, Qt.AspectRatioMode.KeepAspectRatio))
             layout.addWidget(empty_image , alignment=Qt.AlignmentFlag.AlignCenter)
 
@@ -859,7 +859,7 @@ class BasketWindow(QWidget):
 
 
                 delete_button = QPushButton()
-                delete_button.setIcon(QIcon("C:\\Users\\DELL\\Desktop\\Icons\\trash.png"))
+                delete_button.setIcon(QIcon("icons\\trash.png"))
                 delete_button.setIconSize(QSize(20, 20))
                 delete_button.setStyleSheet("background-color: transparent; border: none;")
                 delete_button.clicked.connect(partial(self.removeFromCart, item))

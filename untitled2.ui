@@ -307,7 +307,7 @@ background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(124, 124, 
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../Desktop/Screenshots/ميوزيم.png</pixmap>
+    <pixmap>images/signin.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
